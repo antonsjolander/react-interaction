@@ -1,10 +1,11 @@
 .app {
 	width: 100%;
-	height: 100vh;
+	height: 100%;
+	position: relative;
 }
 .section {
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background-color: #000;
 	position: relative;
 	cursor: none;
@@ -15,8 +16,7 @@
 }
 
 .cursor {
-	cursor: none;
-	position: absolute;
+	position: fixed;
 	top: -25px;
 	left: -25px;
 	width: 50px;
